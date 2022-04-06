@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 video = cv2.VideoCapture('dataset_video1.avi')
 car_cascade = cv2.CascadeClassifier('cars.xml')
